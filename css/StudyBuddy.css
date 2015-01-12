@@ -1,0 +1,26 @@
+html {
+  height:100%;
+  width: 100%;
+  background-color: #999;
+}
+body {
+  height:100%;
+  width: 100%;
+  display: table;
+}
+#study-buddy--app {
+  display: table-cell;
+  vertical-align: middle;
+}
+#study-buddy--app p {
+  text-align: center;
+  font-size: 400%;
+}
+#study-buddy--app p  a {
+  text-decoration: none;
+  color: #333;
+  background-color: #999;
+}
+#study-buddy--app p  a.answer {
+  color:#ccc;
+}
